@@ -17,7 +17,7 @@ COPY package*.json ./
 RUN npm install --omit=dev
 
 COPY --from=build /app/dist ./dist
-COPY .env .env
+# COPY .env .env
 
 EXPOSE 4000
 
