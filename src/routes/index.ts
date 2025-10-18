@@ -14,4 +14,8 @@ router.get("/ramon-dino", (req, res) => {
   res.json({ message: "O dinossauro do acre venceu!!!!" });
 });
 
+router.get("/bomba", (req, res) => {
+  res.json({ message: "boommmm!!!!" });
+});
+
 export default router;
