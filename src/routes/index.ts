@@ -10,4 +10,8 @@ router.get("/macaco", (req, res) => {
   res.json({ message: "O macaco voou no furacao" });
 });
 
+router.get("/ramon-dino", (req, res) => {
+  res.json({ message: "O dinossauro do acre venceu!" });
+});
+
 export default router;
